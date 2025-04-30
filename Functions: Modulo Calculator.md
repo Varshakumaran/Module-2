@@ -12,8 +12,19 @@ To write a Python program that defines a function which accepts two values and r
 
 ## 🧾 Program
 
-Add code Here
+```
 
+def result(a, b):
+    return a % b
+
+num1 = int(input("Enter the first number (a): "))
+num2 = int(input("Enter the second number (b): "))
+
+print("The result of", num1, "%", num2, "is:", result(num1, num2))
+
+```
 ## Output
+![image](https://github.com/user-attachments/assets/2151cb9d-a7bb-4871-93aa-b50ed777eff0)
 
 ## Result
+The code has been executed successfully.
